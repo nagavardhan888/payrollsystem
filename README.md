@@ -23,11 +23,11 @@ This application allows users to manage employee records, calculate salaries, an
 
 The system calculates salary using:
 
-* **HRA (House Rent Allowance)** → 20% of Basic Salary
-* **DA (Dearness Allowance)** → 10% of Basic Salary
-* **Tax Deduction** → 5% of Basic Salary
-
-**Net Salary = Basic + HRA + DA - Tax**
+* Base Pay = Hours × Rate (up to 40 hours)
+* Overtime Pay = Extra Hours × Rate × 1.5
+* Gross Salary = Base Pay + Overtime + Bonus
+* Tax = 10% of Gross Salary
+* Net Salary = Gross Salary – Tax
 
 ---
 
