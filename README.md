@@ -6,12 +6,16 @@ This application allows users to manage employee records, calculate salaries, an
 ---
 
 ##  Features
-
-*  Add Employee Details
-*  View All Employees
-*  Calculate Salary (HRA, DA, Tax)
-*  Delete Employee
-*  Real-time Payslip Display
+* Add Employee details (Name, ID, Hours, Rate, Bonus)
+* View all employees
+* Salary calculation with:
+* Hourly wages
+* Overtime (1.5× rate after 40 hours)
+* Bonus addition
+* Tax deduction (10%)
+* Generate payslip
+* Delete employee record
+* Menu-driven interface
 
 ---
 
