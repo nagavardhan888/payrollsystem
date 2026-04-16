@@ -2,7 +2,7 @@
 employees = []
 def add_employee():
     name = input("Enter Name: ")
-    emp_id = input("Enter ID: ")
+    emp_id = float(input("Enter ID: "))
     try:
         basic = float(input("Enter Basic Salary: "))
     except:
